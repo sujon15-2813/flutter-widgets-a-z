@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widgets_a_z/Expanded/expanded.dart';
 import 'package:flutter_widgets_a_z/FloatingacitonButton/floatingactionbutton.dart';
 import 'package:flutter_widgets_a_z/Opacity/opacity.dart';
+import 'package:flutter_widgets_a_z/Page%20View/pageview.dart';
 import 'package:flutter_widgets_a_z/Wrap/wrap.dart';
 
 void main() {
@@ -16,12 +17,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/MyFloatingActionButton',
+      initialRoute: '/MyPageview ',
       routes: {
         '/MyWrap': (context) => MyWrap(),
         '/MyExpanded': (context) => MyExpanded(),
         '/MyOpacity': (context) => MyOpacity(),
         '/MyFloatingActionButton': (context) => MyFloatingActionButton(),
+        '/MyPageview ': (context) => MyPageview (),
       },
     );
   }
