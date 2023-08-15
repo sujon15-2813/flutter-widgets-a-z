@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_widgets_a_z/AlertDialog/alertdiolog.dart';
+import 'package:flutter_widgets_a_z/Align/align.dart';
 import 'package:flutter_widgets_a_z/Expanded/expanded.dart';
 import 'package:flutter_widgets_a_z/FloatingacitonButton/floatingactionbutton.dart';
 import 'package:flutter_widgets_a_z/Opacity/opacity.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/MyAlertdialog',
+      initialRoute: '/MyAlign',
       routes: {
         '/MyWrap': (context) => MyWrap(),
         '/MyExpanded': (context) => MyExpanded(),
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
         '/MyFloatingActionButton': (context) => MyFloatingActionButton(),
         '/MyPageview ': (context) => MyPageview(),
         '/MyAlertdialog': (context) => MyAleartdialog(),
+        '/MyAlign': (context) => MyAlign(),
       },
     );
   }
