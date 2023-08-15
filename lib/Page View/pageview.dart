@@ -4,8 +4,6 @@ import 'package:flutter_widgets_a_z/Page%20View/pagethree.dart';
 import 'package:flutter_widgets_a_z/Page%20View/pagetwo.dart';
 
 class MyPageview extends StatefulWidget {
-  const MyPageview({super.key});
-
   @override
   State<MyPageview> createState() => _MyPageviewState();
 }

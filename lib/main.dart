@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets_a_z/AlertDialog/alertdiolog.dart';
 import 'package:flutter_widgets_a_z/Expanded/expanded.dart';
 import 'package:flutter_widgets_a_z/FloatingacitonButton/floatingactionbutton.dart';
 import 'package:flutter_widgets_a_z/Opacity/opacity.dart';
@@ -17,13 +18,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: '/MyPageview ',
+      initialRoute: '/MyAlertdialog',
       routes: {
         '/MyWrap': (context) => MyWrap(),
         '/MyExpanded': (context) => MyExpanded(),
         '/MyOpacity': (context) => MyOpacity(),
         '/MyFloatingActionButton': (context) => MyFloatingActionButton(),
-        '/MyPageview ': (context) => MyPageview (),
+        '/MyPageview ': (context) => MyPageview(),
+        '/MyAlertdialog': (context) => MyAleartdialog(),
       },
     );
   }
